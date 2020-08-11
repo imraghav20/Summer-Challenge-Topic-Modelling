@@ -1,0 +1,56 @@
+body
+{
+    background-image: radial-gradient(white,lightgreen, lightyellow);
+    height: 100vh;
+    overflow: hidden;
+}
+
+#auth-image
+{
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+}
+
+h1
+{
+    text-align: center;
+}
+
+input
+{
+    width: 300px !important;
+}
+
+form
+{
+    position: relative !important;
+    margin-right: auto !important;
+    margin-left: auto !important;
+    display: block !important;
+    width: fit-content !important;
+}
+
+button
+{
+    width: 120px !important;
+}
+
+#signin
+{
+    margin-left: 20px !important;
+}
+
+#register
+{
+    margin-right: 20px !important;
+}
+
+.authentication
+{
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%,-50%);
+    height: fit-content;
+}

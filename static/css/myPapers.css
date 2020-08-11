@@ -1,0 +1,84 @@
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body
+  {
+    background-image: radial-gradient(white,lightgreen, lightyellow);
+    overflow-x: hidden;
+  }
+  
+  .navbar{
+    z-index: 10001;
+  }
+  
+  @media(max-width:576px)
+  {
+    #searchInput
+    {
+      width:150px !important; 
+    }
+  
+    .navbar-brand
+    {
+      font-size: 1rem !important;
+    }
+  }
+  
+  @media(max-width:448px)
+  {
+    #searchInput
+    {
+      width:120px !important;
+    }
+  }
+  
+  @media(max-width:418px)
+  {
+    #searchInput
+    {
+      width:100px !important;
+    }
+  }
+  
+  @media(max-width:335px)
+  {
+    #searchInput
+    {
+      width:90px !important;
+    }
+  }
+
+  #particles-js {
+    position: fixed;
+    width: 100%;
+    background-color: #F7D9EB;
+    background-image: url("");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  
+  
+  .particles-js-canvas-el
+  {
+    position: fixed;
+  }
+
+  .paper
+  {
+      background-color: white !important;
+      border: solid !important;
+      border-width: 2px !important;
+      border-color: darkgreen !important;
+      border-radius: 10px !important;
+      padding: 10px !important;
+      position: relative;
+  }
+
+  .content
+  {
+    max-height: 350px !important;
+    overflow-y: hidden !important;
+  }
