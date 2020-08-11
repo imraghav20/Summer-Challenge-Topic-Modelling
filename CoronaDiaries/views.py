@@ -17,14 +17,14 @@ from nltk.corpus import stopwords
 from nltk.tokenize import RegexpTokenizer
 
 config = {
-    "apiKey": "AIzaSyAJEUm3Pgo0W1Fh-CYQrgT3ox0Ur5SKGf4",
-    "authDomain": "corona-diaries.firebaseapp.com",
-    "databaseURL": "https://corona-diaries.firebaseio.com",
-    "projectId": "corona-diaries",
-    "storageBucket": "corona-diaries.appspot.com",
-    "messagingSenderId": "61574957769",
-    "appId": "1:61574957769:web:e052db4cf6118414cd5b18",
-    "measurementId": "G-DTZBQDJ1PW"
+    "apiKey": "API-KEY",
+    "authDomain": "DOMAIN",
+    "databaseURL": "URL",
+    "projectId": "PROJECT-ID",
+    "storageBucket": "BUCKET",
+    "messagingSenderId": "SENDER-ID",
+    "appId": "APP-ID",
+    "measurementId": "MEASUREMENT-ID"
   }
 
 firebase = pyrebase.initialize_app(config)
